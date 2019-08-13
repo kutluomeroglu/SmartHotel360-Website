@@ -7,16 +7,19 @@ We updated the code for this repository to support Scott Hanselman's General Ses
 # SmartHotel360 Repos
 For this reference app scenario, we built several consumer and line-of-business apps and an Azure backend. You can find all SmartHotel360 repos in the following locations:
 
-* [SmartHotel360 ](https://github.com/Microsoft/SmartHotel360)
-* [IoT](https://github.com/Microsoft/SmartHotel360-IoT)
-* [Backend](https://github.com/Microsoft/SmartHotel360-Backend)
-* [Website](https://github.com/Microsoft/SmartHotel360-Website)
-* [Mobile](https://github.com/Microsoft/SmartHotel360-Mobile)
-* [Sentiment Analysis](https://github.com/Microsoft/SmartHotel360-SentimentAnalysis)
-* [Registration](https://github.com/Microsoft/SmartHotel360-Registration)
+- [SmartHotel360](https://github.com/Microsoft/SmartHotel360)
+- [IoT](https://github.com/Microsoft/SmartHotel360-IoT)
+- [Mixed Reality](https://github.com/Microsoft/SmartHotel360-MixedReality)
+- [Backend](https://github.com/Microsoft/SmartHotel360-Backend)
+- [Website](https://github.com/Microsoft/SmartHotel360-Website)
+- [Mobile](https://github.com/Microsoft/SmartHotel360-Mobile)
+- [Sentiment Analysis](https://github.com/Microsoft/SmartHotel360-SentimentAnalysis)
+- [Registration](https://github.com/Microsoft/SmartHotel360-Registration)
 
 # SmartHotel360 - Website
 Welcome to the repository containing the website of SmartHotel360. SmartHotel360 has multiple apps that share a common backend, including a public website where hotel guests can book a room, smart conference rooms, and even verify if their pets are allowed in the hotel.
+
+[![Build status](https://dev.azure.com/smarthotel360/Website/_apis/build/status/Website-CI)](https://dev.azure.com/smarthotel360/Website/_build/latest?definitionId=28)
 
 ![SmartHotel360 Home Page](Documents/Images/screen1.png)
 ![SmartHotel360 Home Page](Documents/Images/screen2.png)

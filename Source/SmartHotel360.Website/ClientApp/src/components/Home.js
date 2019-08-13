@@ -19,15 +19,31 @@ class Home extends Component {
             <div className='sh-hero'>
                 <div className='sh-hero-wrapper'>
                     <div className='sh-hero-title'>The future of intelligent hospitality and connected workplace</div>
+                    <div className='sh-hero-subtitle'>Download the App</div>
                     <ul className='sh-hero-buttons'>
                         <li className='sh-hero-button'>
-                            <div className='sh-hero-download_app sh-hero-download_app--win'></div>
+                            <a className='sh-hero-button-link' href="https://aka.ms/smarthotel360uwp">
+                                <div className='sh-hero-download_app'>
+                                    <div className='sh-hero-download_app-subtitle'>Get it now for</div>
+                                    Windows 10
+                                    </div>
+                            </a>
                         </li>
                         <li className='sh-hero-button'>
-                            <div className='sh-hero-download_app sh-hero-download_app--apple'></div>
+                            <a className='sh-hero-button-link' href="https://aka.ms/smarthotel360ios">
+                                <div className='sh-hero-download_app'>
+                                    <div className='sh-hero-download_app-subtitle'>Get it now for</div>
+                                    Android
+                                    </div>
+                            </a>
                         </li>
                         <li className='sh-hero-button'>
-                            <div className='sh-hero-download_app sh-hero-download_app--google'></div>
+                            <a className='sh-hero-button-link' href="https://aka.ms/smarthotel360android">
+                                <div className='sh-hero-download_app'>
+                                    <div className='sh-hero-download_app-subtitle'>Get it now for</div>
+                                    iOS
+                                 </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -88,7 +104,7 @@ class Home extends Component {
             <span className='sh-home-label'>For Business travelers</span>
             <span className='sh-home-title'>Smart Conference Room</span>
             <ConferenceRoomsFeatures />
-            
+
             <section className='sh-smartphone'>
                 <div className='sh-smartphone-wrapper'>
                     <h2 className='sh-smartphone-title'>Discover the full smart experience with your smartphone</h2>
